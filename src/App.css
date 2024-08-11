@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.App-header {
+  background-color: #343a40;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.evento-estou-btn {
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(158, 156, 156, 0.2);
+}
+
+.evento-estou-btn:hover {
+  background-color: #218838;
+}
+
+.evento-estou-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+}
+
+.header-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.header-buttons button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(158, 156, 156, 0.2);
+}
+
+.event-buttons button{
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.header-buttons button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.header-buttons button:active {
+  background-color: #004494;
+  transform: translateY(1px);
+}
+
+h1 {
+  margin: 0;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.event-list {
+  margin: 20px 0;
+}
+
+.event-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.event-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  padding: 15px;
+}
+
+.event-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.event-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.event-card p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.cancelar-inscricao-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(158, 156, 156, 0.2);
+}
+
+.cancelar-inscricao-btn:hover {
+  background-color: #c82333;
+}
